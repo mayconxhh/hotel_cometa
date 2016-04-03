@@ -1,0 +1,148 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Hotel Cometa</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href='http://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body ontouchstart="">    
+        <!--[if lt IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    	<header>
+    		<div class="logo">
+    			<h1><img src="./img/logo_cometa.png" alt="Logo del hotel"></h1>
+    		</div>
+    		<div class="navigation">
+    			<nav>
+    				<ul id="navegacionPrincipal">
+    					<li><a href="#index">Inicio</a></li>
+    					<li><a href="#costos">Costos</a></li>
+    					<li><a href="#cuartos">Cuartos</a></li>
+    					<li><a href="#buffet">Buffet</a></li>
+    					<li><a href="#contacto">Contacto</a></li>
+    				</ul>
+    			</nav>
+    		</div>    		
+    	</header>
+
+    	<section class="slider_container fullScreen">
+    		<div class="slideContainer">
+    			<div class="slide fullScreen" data-background="./img/DSCF0302"></div>
+    			<div class="slide fullScreen" data-background="./img/DSCF0303"></div>
+    			<div class="slide fullScreen" data-background="./img/DSCF0308"></div>
+    			<div class="slide fullScreen" data-background="./img/DSCN1592"></div>
+    		</div>
+    	</section>
+    	<!-- <div class="fullScreen"></div>
+    	<nav class="slide_controls">
+    		<li>1</li>
+    		<li>2</li>
+    		<li>3</li>
+    		<li>4</li>
+    	</nav> -->
+    	<section class="fullScreen" id="index">
+    		<div class="mensajePrincipal">
+    			<p class="triangle"><span>Desde 300usd por noche</span></p>
+    			<h2>Un lugar para disfrutar y relajarte</h2>
+    			<p>Cancún, Mexico</p>
+    		</div>
+    	</section>
+    	<section id="cuartos" class="cuartos fullScreen">
+    		<h1 class="centerCircle">El mejor servicio</h1>
+    		<div class="half halfRooms">
+    			<img src="./img/DSCF0037.jpg" alt="">
+    		</div>
+    		<div class="half halfRooms">
+    			<img src="./img/DSCN1127.jpg" alt="">
+    		</div>
+    	</section>
+    	<section id="costos" class="fullScreen costos" data-stellar-background-ratio="0.5">
+    		<div class="marginTop">
+    			<div class="precio" data-stellar-ratio="2.09">
+    				<div class="ribbon"></div>
+    				<h3>Paquete básico</h3>
+    				<p>Disfruta de nuestro paquete sencillo, perfecto para vacaciones improvisadas donde el presupuesto es limitado.</p>
+    				<p class="costo">300</p>
+    				<a class="ver-mas" data-number="0">Conoce más del paquete</a>
+    			</div>
+    			<div class="precio" data-stellar-ratio="2.09">
+    				<div class="ribbon"></div>
+    				<h3>Paquete básico</h3>
+    				<p>Disfruta de nuestro paquete sencillo, perfecto para vacaciones improvisadas donde el presupuesto es limitado.</p>
+    				<p class="costo">300</p>
+    				<a class="ver-mas" data-number="1">Conoce más del paquete</a>
+    			</div>
+    			<div class="precio" data-stellar-ratio="2.09">
+    				<div class="ribbon"></div>
+    				<h3>Paquete básico</h3>
+    				<p>Disfruta de nuestro paquete sencillo, perfecto para vacaciones improvisadas donde el presupuesto es limitado.</p>
+    				<p class="costo">300</p>
+    				<a class="ver-mas" data-number="2">Conoce más del paquete</a>
+    			</div>
+    		</div>
+    	</section>
+    	<section id="buffet" class="buffet fullScreen">
+    		<div class="image-food viewport" data-background="./img/DSCF0330"></div>
+    		<div class="image-food" data-background="./img/DSCF0311"></div>
+    		<div class="image-food" data-background="./img/DSCF0371"></div>
+    		<div class="image-food" data-background="./img/DSCF0330"></div>
+    	</section>
+    	<div id="contacto" class="fullScreen contacto" data-stellar-background-ratio="0.2">
+    		<div class="marginTop">
+    			<h2>Contacto</h2>
+    			<div class="half">
+    				<h3>Redes Sociales</h3>
+					<span class="social"><a href="'http://facebook.com" target="blank">F</a></span>
+					<span class="social"><a href="http://twitter.com" target="blank">O</a></span>
+					<span class="social"><a href="http://youtube.com" target="blank">X</a></span>
+					<h3>Direccion y teléfono</h3>
+					<p>Direccion inventada, avenida inventada, numero inventado</p>
+					<p>Telefono 123123123</p>
+    			</div>
+    			<div class="half">
+    				<div  class="maps" id="map" data-stellar-ratio="2.08"></div>
+    			</div>
+    		</div>
+    	</div>
+		<script type="text/x-jquery-tmpl" id="precioTemplate">
+			<div>
+		    	<div class="ribbon"></div>
+	    		<h3>
+	    			${paquete}
+	    		</h3>
+	    		<p><strong>Contenido del paquete</strong></p>
+	    		<ol>
+	    			{{each opciones}}
+						<li>${opcion}</li>
+	    			{{/each}}
+	    		</ol>
+	    		<p class="costo">${costo}</p>
+	    		<a id="regresar-ventana">Regresar</a>
+	    	</div>
+		</script>
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-b6N-8yKUYKXn2tP8_4IBqwKHfbqUgLs&callback=initMap"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src='http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js'></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/jquery.ui.core.min.js"></script>
+        <script src="js/jquery.ui.effect.min.js"></script>
+        <script src="js/jquery.flip.min.js"></script>
+        <script src="js/scrollto.min.js"></script>
+        <script src="js/localscroll.min.js"></script>
+        <script src="js/stellar.min.js"></script>
+        <script src="js/jquery.scrollorama.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
